@@ -1,9 +1,5 @@
-# Refurbish The Work of Art in the Age of Mechanical Reproduction
-
-
-
-## GitHub Writing Workshop Guide
-### Rewriting Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction"
+# GitHub Writing Workshop Guide
+## Rewriting Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction"
 
 ### Initial Setup
 
@@ -26,7 +22,7 @@ cd TWAAMR
 TWAAMR/
 ├── .gitignore           # Excludes temporary files
 ├── chapters/           
-│   ├── chapter1.md      # Your assigned chapter
+│   ├── 01.md            # Your assigned chapter
 │   └── notes.md         # Research and drafting notes
 └── style-guide.md       # Formatting standards
 ```
@@ -36,14 +32,19 @@ TWAAMR/
 ```
 main
 └── student/<username>
-    └── 01.md
+    └── chapter1
         ├── draft
         └── review
 ```
 
-### Basic Workflow
+### Team Workflow
 
-1. **Create Your Space**
+1. **Repository Setup**
+- Main branch is protected - only accepts reviewed pull requests
+- One designated "Merge Master" handles all merges
+- Each student works in their own namespace
+
+2. **Create Your Space**
 ```bash
 git checkout main
 git pull
@@ -98,6 +99,25 @@ git checkout draft/chapter1
 # Make changes
 git commit -m "revise: address reviewer comments"
 ```
+
+### Submitting Changes
+
+1. Push your branch:
+```bash
+git push origin student/yourname/chapter1/draft
+```
+
+2. On GitHub:
+- Create pull request
+- Select Merge Master as reviewer
+- Add description of changes
+- Wait for review/approval
+
+3. After approval, Merge Master will:
+- Review changes
+- Handle merge conflicts
+- Merge to main
+- Delete merged branch
 
 ### Final Submission
 
@@ -159,3 +179,4 @@ git checkout -b recovery HEAD@{1}
 - Complete peer review
 - Prepare for merge
 
+Need help? Create an issue on GitHub or contact your instructor.
