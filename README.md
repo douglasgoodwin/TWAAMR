@@ -1,3 +1,4 @@
+The is the MODERNIZE branch
 # GitHub Writing Workshop Guide
 ## Rewriting Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction"
 

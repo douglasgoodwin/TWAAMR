@@ -1,0 +1,21 @@
+# The Work of Art in the Age of Mechanical Reproduction
+
++ [README](README.md)
+
++ [Forward](00_forward.md)
++ [Chapter 1](01.md)
++ [Chapter 2](02.md)
++ [Chapter 3](03.md)
++ [Chapter 4](04.md)
++ [Chapter 5](05.md)
++ [Chapter 6](06.md)
++ [Chapter 7](07.md)
++ [Chapter 8](08.md)
++ [Chapter 9](09.md)
++ [Chapter 10](10.md)
++ [Chapter 11](11.md)
++ [Chapter 12](12.md)
++ [Chapter 13](13.md)
++ [Chapter 14](14.md)
++ [Chapter 15](15.md)
++ [Afterword](16_afterword.md)
