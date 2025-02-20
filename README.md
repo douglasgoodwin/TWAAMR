@@ -1,4 +1,8 @@
-The is a branch
+The is the MODERNIZE branch
+
+Looking at using GitBook to publish the redux.
+https://medium.com/@techworldthink/creating-and-publishing-a-gitbook-on-github-7bc82dedc4a9
+
 # GitHub Writing Workshop Guide
 ## Rewriting Walter Benjamin's "The Work of Art in the Age of Mechanical Reproduction"
 
